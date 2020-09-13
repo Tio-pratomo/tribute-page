@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#main {
+    margin: 0 auto;
+    width: 90%;
+    border: 1px solid #000;
+    background: linear-gradient(60deg, rgba(31, 26, 26, 0.65) 5%, rgb(214, 214, 214) 30%, rgba(31, 26, 26, 0.65) 90%);
+    padding: 2vh 5vw 5vh;
+}
+
+section.title-and-caption {
+    margin: 10vh auto;
+    text-align: center;
+}
+
+.title-and-caption p {
+    margin: 2vh 0;
+    color: antiquewhite;
+}
+
+figure img {
+    max-width: 80%;
+    width: auto;
+    height: auto;
+    display: block;
+    margin: 3vh auto;
+}
+
+.introduction {
+    margin: 5vh 0;
+}
+
+.introduction p {
+    margin: 3vh 0 0 0;
+}
+
+.album p {
+    margin: 3vh auto;
+    font-size: 1.1em;
+}
+
+.album ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 90%;
+    height: 100%;
+    margin: auto;
+}
+
+.achievement {
+    margin: 10vh 0 5vh 0;
+}
+
+.achievement p {
+    margin: 3vh 0;
+    font-size: 1.1em;
+}
+
+.achievement ul {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px 30px;
+    width: 90%;
+    height: 100%;
+    margin: auto;
+}
+
+.more-info p {
+    font-size: 1.05em;
+}
+
+.more-info a[target="_blank"] {
+    text-decoration: none;
+    font-size: 1.2em;
+}
